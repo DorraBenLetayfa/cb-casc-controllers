@@ -11,5 +11,5 @@ items:
   - items-folder-admin.yaml
 catalog:
   - plugin-catalog.yaml
-rbac:
-  - rbac.yaml
+# rbac:
+#   - rbac.yaml
