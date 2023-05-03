@@ -1,3 +1,6 @@
+removeStrategy:
+  rbac: SYNC
+  items: NONE
 items:
 - kind: pipeline
   name: tets-pipline
