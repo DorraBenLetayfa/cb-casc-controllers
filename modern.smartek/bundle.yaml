@@ -8,5 +8,5 @@ jcascMergeStrategy: "errorOnConflict"
 jcasc:
   - "jenkins-smartek.yaml"
 items:
-  - items-root-smartek.yaml
+  - "items-root-smartek.yaml"
 
