@@ -40,16 +40,16 @@ items:
   - itemRestrictions:
       filter: false
 - kind: folder
-  name: FolderX1
-  displayName: FolderX1
+  name: FolderY1
+  displayName: FolderY1
   properties:
   - envVars: {
       }
   - itemRestrictions:
       filter: false
 - kind: folder
-  name: FolderX2
-  displayName: FolderX2
+  name: FolderY2
+  displayName: FolderY2
   properties:
   - envVars: {
       }
