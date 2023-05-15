@@ -24,19 +24,3 @@ items:
   disabled: false
   displayName: tets-pipline
   resumeBlocked: false
-- kind: folder
-  name: FolderX1
-  displayName: FolderX1
-    properties:
-  - envVars: {
-      }
-  - itemRestrictions:
-      filter: false
-- kind: folder
-  name: FolderX2
-  displayName: FolderX2
-    properties:
-  - envVars: {
-      }
-  - itemRestrictions:
-      filter: false
