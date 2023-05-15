@@ -39,19 +39,3 @@ items:
       }
   - itemRestrictions:
       filter: false
-- kind: folder
-  name: FolderY1
-  displayName: FolderY1
-  properties:
-  - envVars: {
-      }
-  - itemRestrictions:
-      filter: false
-- kind: folder
-  name: FolderY2
-  displayName: FolderY2
-  properties:
-  - envVars: {
-      }
-  - itemRestrictions:
-      filter: false
