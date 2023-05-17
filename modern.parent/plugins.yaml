@@ -9,7 +9,7 @@ plugins:
 - id: aws-java-sdk-ec2
 - id: aws-java-sdk-minimal
 - id: blueocean-commons
-- id: bootstrap4-api
+#- id: bootstrap4-api
 - id: bootstrap5-api
 - id: bouncycastle-api
 - id: branch-api
@@ -81,7 +81,7 @@ plugins:
 - id: mina-sshd-api-core
 - id: mina-sshd-api-sftp
 - id: mock-load-builder
-- id: momentjs
+#- id: momentjs
 - id: nectar-license
 - id: nectar-rbac
 - id: notification-api
@@ -106,7 +106,7 @@ plugins:
 - id: pipeline-utility-steps
 - id: plain-credentials
 - id: plugin-util-api
-- id: popper-api
+#- id: popper-api
 - id: popper2-api
 - id: scm-api
 - id: script-security

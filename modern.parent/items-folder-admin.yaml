@@ -16,10 +16,10 @@ items:
     - restoreBuilder:
         store:
           s3Store:
-            bucketName: crodriguezlopez-v3.backups
+            bucketName: cloudbeespocsmartek.backups
             sse: true
-            bucketFolder: cbci/backups/builds
-            region: us-east-1
+            bucketFolder: controllersBackup/build_data
+            region: eu-west-1
     concurrentBuild: false
     displayName: restore-builds
   - kind: backupAndRestore
@@ -28,10 +28,10 @@ items:
     - restoreBuilder:
         store:
           s3Store:
-            bucketName: crodriguezlopez-v3.backups
+            bucketName: cloudbeespocsmartek.backups
             sse: true
-            bucketFolder: cbci/backups/conf
-            region: us-east-1
+            bucketFolder: controllersBackup/config
+            region: eu-west-1
     concurrentBuild: false
     displayName: restore-config
   properties:
