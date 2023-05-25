@@ -40,3 +40,45 @@ items:
       }
   - itemRestrictions:
       filter: false
+- kind: backupAndRestore
+  name: restorebuild
+  blockBuildWhenDownstreamBuilding: false
+  blockBuildWhenUpstreamBuilding: false
+  buildersList:
+  - restoreBuilder:
+      ignoreConfirmationFile: true
+      preserveJenkinsHome: false
+      ignoreDigestCheck: false
+      store:
+        s3Store:
+          bucketName: cloudbeespocsmartekcontrollersdorra.backups
+          sse: true
+          bucketFolder: build
+          credentialsId: 44c8a7d2-84ad-491d-80e3-03a4734354fa
+          region: eu-west-1
+      restoreDirectory: ''
+  concurrentBuild: false
+  description: ''
+  disabled: false
+  displayName: restorebuild
+- kind: backupAndRestore
+  name: restoreconf
+  blockBuildWhenDownstreamBuilding: false
+  blockBuildWhenUpstreamBuilding: false
+  buildersList:
+  - restoreBuilder:
+      ignoreConfirmationFile: true
+      preserveJenkinsHome: false
+      ignoreDigestCheck: false
+      store:
+        s3Store:
+          bucketName: cloudbeespocsmartekcontrollersdorra.backups
+          sse: true
+          bucketFolder: conf
+          credentialsId: 44c8a7d2-84ad-491d-80e3-03a4734354fa
+          region: eu-west-1
+      restoreDirectory: ''
+  concurrentBuild: false
+  description: ''
+  disabled: false
+  displayName: restoreconf
