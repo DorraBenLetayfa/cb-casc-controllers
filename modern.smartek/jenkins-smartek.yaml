@@ -1,2 +1,13 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - aws:
+          accessKey: "AKIARC5QSFTARXYITBQF"
+          id: "8c526f9d-7319-423c-aacd-63682170bec1"
+          scope: GLOBAL
+          secretKey: "mMVe8F8g3WlsDK5msWjJVP9zpSeDkmVvt8i7a1eR"
 jenkins:
   systemMessage: "Hello From CasC"
+  numExecutors: 2
+  
