@@ -3,7 +3,7 @@ removeStrategy:
   items: NONE
 items:
 - kind: pipeline
-  name: tets-pipline
+  name: test-pipline
   concurrentBuild: true
   definition:
     cpsFlowDefinition:
@@ -23,6 +23,27 @@ items:
   description: ''
   disabled: false
   displayName: tets-pipline
+  resumeBlocked: false
+- kind: pipeline
+  name: slack-pipline
+  concurrentBuild: true
+  definition:
+    cpsFlowDefinition:
+      sandbox: true
+      script: |
+        pipeline {
+            agent any
+            stages {
+              stage('Slack') {
+                steps {
+                  slackSend color: 'good', message: 'test message'
+                }
+              }
+            }
+          }
+  description: ''
+  disabled: false
+  displayName: slack-pipline
   resumeBlocked: false
 - kind: backupAndRestore
   name: restorebuild
