@@ -41,10 +41,10 @@ items:
 #              }
 #            }
 #          }
-  description: ''
-  disabled: false
-  displayName: slack-pipline
-  resumeBlocked: false
+#  description: ''
+#  disabled: false
+#  displayName: slack-pipline
+#  resumeBlocked: false
 - kind: backupAndRestore
   name: restorebuild
   blockBuildWhenDownstreamBuilding: false
